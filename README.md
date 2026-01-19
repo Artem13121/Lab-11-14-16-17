@@ -31,8 +31,10 @@
 ## Структура проекта
 text
 lab/
-├── main.c              # Главный файл с полной реализацией
-└── README.md           # Документация
+├── app.c             
+| ├── array.h
+│ ├── arrays.c
+└── README.md           
 
 ## Реализованные функции
 1. void print_double(double* a, int n)
